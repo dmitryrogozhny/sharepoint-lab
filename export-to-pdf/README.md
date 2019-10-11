@@ -18,9 +18,9 @@ The second example is the `Export to Pdf` web part that allows to perfom the sam
 The title of the list with travel items should be specified in web part's properties.
 
 ## Travels List
-This demo uses a Travel list, that contains fields to describe a travel between two locations. You can provision this list on a site by running the [./src/CreateTravelsList.ps1](./src/CreateTravelsList.ps1) script.
+This demo uses a Travel list, that contains fields to describe a travel between two locations. You can provision this list on a site by running the [./src/deploy/CreateTravelsList.ps1](./src/deploy/CreateTravelsList.ps1) script.
 
-The template file for a list is available at [./src/travels.xml](./src/travels.xml).
+The template file for a list is available at [./src/deploy/travels.xml](./src/deploy/travels.xml).
 
 > You can run the script like this: CreateTravelsList.ps1 -Site SITE_URL -FilePath FILE_PATH
 >
@@ -49,8 +49,8 @@ __Export to Pdf web part__:
 ## How to install the demo
 1. Clone the repo.
 2. Run `npm install` to get all the dependencies.
-3. Run the [./src/CreateTravelsList.ps1](./src/CreateTravelsList.ps1) script to provision the Travels list (see [Travels List](#travels-list) for details).
-4. Optionally, if you want to get the map image for a travel list, get the Bing Maps API key and run the [./src/SetBingMapKey.ps1](./src/SetBingMapKey.ps1) script (see [Bing Maps API Key](#bing-maps-api-key) for details).
+3. Run the [./src/deploy/CreateTravelsList.ps1](./src/deploy/CreateTravelsList.ps1) script to provision the Travels list (see [Travels List](#travels-list) for details).
+4. Optionally, if you want to get the map image for a travel list, get the Bing Maps API key and run the [./src/deploy/SetBingMapKey.ps1](./src/deploy/SetBingMapKey.ps1) script (see [Bing Maps API Key](#bing-maps-api-key) for details).
 5. Start the demo project by running `gulp serve`.
 6. For list custom actions, open the Travels list and add a debug string to the Url: `?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"bae5c64a-bec8-4785-a546-225fc94caa36":{"location":"ClientSideExtension.ListViewCommandSet"}}`
 7. For a web part, open the workbench page at `https://YOUR_TENANT_NAME.sharepoint.com/sites/YOUR_SITE_NAME/_layouts/15/Workbench.aspx` and add the `Export to Pdf` web part.
@@ -65,7 +65,7 @@ You would need to get the valid Bing Maps API key first, and then configure your
 You can obtain your own API key for free at the [Bing Maps Dev Center](https://www.bingmapsportal.com/). You would need to sign in with your Microsoft account to get a key.
 
 ### How to configure this example with your Bing Maps API key
-The [./src/SetBingMapKey.ps1](./src/SetBingMapKey.ps1) script allows to configure the API key that will be used by examples. You would need a tenant administrator account to run the script.
+The [./src/deploy/SetBingMapKey.ps1](./src/deploy/SetBingMapKey.ps1) script allows to configure the API key that will be used by examples. You would need a tenant administrator account to run the script.
 
 > You can run the script like this: SetBingMapKey.ps1 -Tenant YOUR_TENANT_NAME -BingMapsApiKey YOUR_BING_MAPS_API_KEY
 >
