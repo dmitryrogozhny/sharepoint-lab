@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "export-to-pdf-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/exportToPdf/ExportToPdfCommandSet.js",
+          "manifest": "./src/extensions/exportToPdf/ExportToPdfCommandSet.manifest.json"
+        }
+      ]
+    },
+    "export-to-pdf-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/exportToPdf/ExportToPdfWebPart.js",
+          "manifest": "./src/webparts/exportToPdf/ExportToPdfWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExportToPdfCommandSetStrings": "lib/extensions/exportToPdf/loc/{locale}.js",
+    "ExportToPdfWebPartStrings": "lib/webparts/exportToPdf/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

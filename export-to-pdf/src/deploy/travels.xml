@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.28.1807.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-2CC69C8B568D438CA98DB48446741165">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-2CC69C8B568D438CA98DB48446741165" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Travels" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Travels" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableAttachments="false" EnableFolderCreation="false" NoCrawl="true" DefaultDisplayFormUrl="{site}/Lists/Travels/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Travels/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Travels/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=46" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{D01A5486-204A-4ECC-8026-C20913391D70}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/TestTeam1/Lists/Travels/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=46">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="ID" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="From" />
+                <FieldRef Name="To" />
+                <FieldRef Name="Date" />
+                <FieldRef Name="Driver" />
+                <FieldRef Name="Vehicle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+              <ColumnWidth>
+                <FieldRef Name="ID" width="90" />
+                <FieldRef Name="LinkTitle" width="220" />
+                <FieldRef Name="Date" width="90" />
+                <FieldRef Name="Driver" width="90" />
+                <FieldRef Name="Vehicle" width="90" />
+                <FieldRef Name="From" width="125" />
+                <FieldRef Name="To" width="130" />
+              </ColumnWidth>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field DisplayName="Date" FriendlyDisplayFormat="Disabled" Format="DateOnly" Name="Date" Required="TRUE" Title="Date" Type="DateTime" ID="{f38ba5b7-7d5b-41b0-8350-5799f46643d9}" SourceID="{{listid:Travels}}" StaticName="Date" ColName="datetime1" RowOrdinal="0" />
+            <Field ClientSideComponentId="00000000-0000-0000-0000-000000000000" DisplayName="From" Format="Dropdown" Name="From" Required="TRUE" Title="From" Type="Location" ID="{4600697b-341c-498c-9719-6a1037d718c8}" Version="2" StaticName="From" SourceID="{{listid:Travels}}" ColName="ntext3" RowOrdinal="0" />
+            <Field DisplayName="To" Format="Dropdown" Name="To" Required="TRUE" Title="To" Type="Location" ID="{b10327f3-abdb-4486-9d66-7fab980b1e18}" SourceID="{{listid:Travels}}" StaticName="To" ColName="ntext4" RowOrdinal="0" />
+            <Field DisplayName="Driver" FillInChoice="FALSE" Format="Dropdown" Name="Driver" Required="TRUE" Title="Driver" Type="Choice" ID="{01c25c8a-bc13-4834-a1f5-e3c01e447743}" SourceID="{{listid:Travels}}" StaticName="Driver" ColName="nvarchar17" RowOrdinal="0">
+              <CHOICES>
+                <CHOICE>Anabel Ortega</CHOICE>
+                <CHOICE>Terrell Price</CHOICE>
+                <CHOICE>Mae Ramsey</CHOICE>
+                <CHOICE>Gavin Ross</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field DisplayName="Vehicle" FillInChoice="FALSE" Format="Dropdown" Name="Vehicle" Required="TRUE" Title="Vehicle" Type="Choice" ID="{014fae00-6155-44ed-a003-15b72db482b1}" SourceID="{{listid:Travels}}" StaticName="Vehicle" ColName="nvarchar16" RowOrdinal="0">
+              <CHOICES>
+                <CHOICE>Chevrolet Blazer</CHOICE>
+                <CHOICE>Dodge Ram</CHOICE>
+                <CHOICE>Ford F-150</CHOICE>
+                <CHOICE>Toyota Tundra</CHOICE>
+              </CHOICES>
+            </Field>
+          </pnp:Fields>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">from Heathrow to Garwick</pnp:DataValue>
+              <pnp:DataValue FieldName="Date">5/5/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="From">{"EntityType":"LocalBusiness","LocationSource":"Bing","LocationUri":"https://www.bingapis.com/api/v6/localbusinesses/YN1029x5804010081112848392?setLang=en","UniqueId":"https://www.bingapis.com/api/v6/localbusinesses/YN1029x5804010081112848392?setLang=en","DisplayName":"Heathrow Airport","Address":{"Street":"The Compass Centre Nelson Road","City":"Hounslow","State":"Middlesex","CountryOrRegion":"GB","PostalCode":"TW6 2GW"},"Coordinates":{"Latitude":51.469600677490234,"Longitude":-0.4535660147666931}}</pnp:DataValue>
+              <pnp:DataValue FieldName="To">{"EntityType":"LocalBusiness","LocationSource":"Bing","LocationUri":"https://www.bingapis.com/api/v6/localbusinesses/YN1029x10606510750533426942?setLang=en","UniqueId":"https://www.bingapis.com/api/v6/localbusinesses/YN1029x10606510750533426942?setLang=en","DisplayName":"Gatwick Airport","Address":{"Street":"Destinations Place, South Terminal","City":"London","State":"West Sussex","CountryOrRegion":"GB","PostalCode":"RH6 0NP"},"Coordinates":{"Latitude":51.15083694458008,"Longitude":-0.17741599678993225}}</pnp:DataValue>
+              <pnp:DataValue FieldName="Driver">Terrell Price</pnp:DataValue>
+              <pnp:DataValue FieldName="Vehicle">Dodge Ram</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">from East Coast to West Coast</pnp:DataValue>
+              <pnp:DataValue FieldName="Date">10/6/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="From">{"LocationSource":"Bing","LocationUri":"https://www.bingapis.com/api/v6/localentities/60d5dc2b-c915-460b-b722-c9e3485499ca?setLang=en","UniqueId":"https://www.bingapis.com/api/v6/localentities/60d5dc2b-c915-460b-b722-c9e3485499ca?setLang=en","DisplayName":"New York, New York, United States","Address":{"City":"New York","State":"New York","CountryOrRegion":"United States","Street":"New York, New York, United States"},"Coordinates":{"Latitude":40.71455001831055,"Longitude":-74.00714111328125}}</pnp:DataValue>
+              <pnp:DataValue FieldName="To">{"LocationSource":"Bing","LocationUri":"https://www.bingapis.com/api/v6/localentities/37181124-e096-403d-a455-576a61b83525?setLang=en","UniqueId":"https://www.bingapis.com/api/v6/localentities/37181124-e096-403d-a455-576a61b83525?setLang=en","DisplayName":"San Francisco County, California, United States","Address":{"State":"California","CountryOrRegion":"United States","Street":"San Francisco County, California, United States"},"Coordinates":{"Latitude":37.782405853271484,"Longitude":-122.4134292602539}}</pnp:DataValue>
+              <pnp:DataValue FieldName="Driver">Mae Ramsey</pnp:DataValue>
+              <pnp:DataValue FieldName="Vehicle">Chevrolet Blazer</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">from Montmartre to Louvre Museum</pnp:DataValue>
+              <pnp:DataValue FieldName="Date">12/8/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="From">{"EntityType":"LocalBusiness","LocationSource":"Bing","LocationUri":"https://www.bingapis.com/api/v6/localbusinesses/YN2154x257687030?setLang=en","UniqueId":"https://www.bingapis.com/api/v6/localbusinesses/YN2154x257687030?setLang=en","DisplayName":"Montmartre","Address":{"Street":"97, Rue Ordener","City":"Paris","State":"75","CountryOrRegion":"FR","PostalCode":"75018"},"Coordinates":{"Latitude":48.89199447631836,"Longitude":2.346848964691162}}</pnp:DataValue>
+              <pnp:DataValue FieldName="To">{"EntityType":"LocalBusiness","LocationSource":"Bing","LocationUri":"https://www.bingapis.com/api/v6/localbusinesses/YN2000x1822644032520724670?setLang=en","UniqueId":"https://www.bingapis.com/api/v6/localbusinesses/YN2000x1822644032520724670?setLang=en","DisplayName":"Louvre Museum","Address":{"Street":"34-36 quai du Louvre, 1er","City":"Paris","State":"75","CountryOrRegion":"FR","PostalCode":""},"Coordinates":{"Latitude":48.86052322387695,"Longitude":2.3377697467803955}}</pnp:DataValue>
+              <pnp:DataValue FieldName="Driver">Gavin Ross</pnp:DataValue>
+              <pnp:DataValue FieldName="Vehicle">Toyota Tundra</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "bae5c64a-bec8-4785-a546-225fc94caa36": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+          }
+        }
+      }
+    },
+    "ExportToPdf": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "bae5c64a-bec8-4785-a546-225fc94caa36": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  }
+}

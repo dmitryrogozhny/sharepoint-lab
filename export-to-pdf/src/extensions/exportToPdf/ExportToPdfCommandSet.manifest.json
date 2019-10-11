@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "bae5c64a-bec8-4785-a546-225fc94caa36",
+  "alias": "ExportToPdfCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "items": {
+    "EXPORT_LIST": {
+      "title": { "default": "Export Items" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAABmZmZ+SwYRAAAAAXRSTlMAQObYZgAAABpJREFUCFtjYICD/0CAThww4GHGTdBOHRwAADHCOcfp5pIKAAAAAElFTkSuQmCC",
+      "type": "command"
+    },
+    "EXPORT_ITEM": {
+      "title": { "default": "Export Item" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA/FBMVEUAAABmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmbaNmS4AAAAU3RSTlMAAQIDBAYHCAkKCwwNDhESExQWHB4gISMlJyovMjM0NTY4Ojs8REpXXF1eZGhwcXd4e4CIjJGVl5igqLK6wcPFyNHT1dfg4ubo6evv8fP19/n7/RNoBE4AAAEXSURBVDjLjdNrU4JAFAbgl6IosiskCnaxtCy1TOliZVfsIkXJ+///Sx9QBljc6f2ys2ef2ZlzZheA2guYjldHMi7FDPQECKggHZK+kdxCAA2GthSgStp5wDSnFYehIQKTbWNaqdLXBVALN2pxpcGBAPZZcKIuotSzYJsVA8B1PLEs0PisQxhAsov31NByQPcNcnDJTSlY5ldfCjoPFh0JWOIOzoK12eDiFcDVqKwsrKxqOaBAB1g/Ckn+fPx+GgK48ezu92P7oNTnXUUrt7LAotcszkd3Hd+HYzMNFjts5TyceNl7uh3OScDJyyEtzAal8e6oCQk4HfrnkAEUtyAH+fkvEL/eJAqDmZ93kh4AQHWD/OPAVYE/v5ZhN78jx0UAAAAASUVORK5CYII=",
+      "type": "command"
+    },
+    "GENERATE_TRAVEL_LIST": {
+      "title": { "default": "Travel List" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAApVBMVEUAAABmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZUGvO8AAAANnRSTlMAAQIDBAUHCAsMDhAXGBwjJCcoKjxAQkNETU5WWF9kZmlrgIWOkZeYsLK0vMjT1dnk6PX3+/2y94kgAAAA9ElEQVQ4y82S0VKCUBRFF7dQ1DIrLUlNJVFDS0Tc//9pPQCjxMWa6aX1dGf2mrvPmTnwK4zXquCZU/6UykL6XOSuNZdSNxf60vixwljq58JaiVOdy0m0zl5NKbBNHkhNAIbSnU3oSUMANtYGcBJtALyaBggkD/BrGqAn+cC2pgGcRFtoS/u3GvZSm5EuMiK8LISZ8LmKvyfx6uMkvIJZlvOlgWkhxACNstAAiHPhHYDjeX4EIMqFgwvcln+4AdxDMUPUMd1dWdh1TSc6bfHjmv9BmLQsTM6Ege0cBpkwl6R7m/AgSTOu5+HCt1/UyyKcXfFnvgCD5m6nYiGtYgAAAABJRU5ErkJggg==",
+      "type": "command"
+    }
+  }
+}
