@@ -2,17 +2,27 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "hello-world-web-part": {
+    "all-controls-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
-          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/allControls/AllControlsWebPart.js",
+          "manifest": "./src/webparts/allControls/AllControlsWebPart.manifest.json"
+        }
+      ]
+    },
+    "all-controls-with-callout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/allControlsWithCallout/AllControlsWithCalloutWebPart.js",
+          "manifest": "./src/webparts/allControlsWithCallout/AllControlsWithCalloutWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js"
+    "AllControlsWebPartStrings": "lib/webparts/allControls/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "AllControlsWithCalloutWebPartStrings": "lib/webparts/allControlsWithCallout/loc/{locale}.js"
   }
 }

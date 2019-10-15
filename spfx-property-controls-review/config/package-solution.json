@@ -2,9 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "spfx-property-controls-review-client-side-solution",
-    "id": "bf7675ba-c6f3-4681-88a8-5be27707b54c",
+    "id": "03306ab7-e34d-42cd-bb2f-893fa9cdc205",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
     "isDomainIsolated": false
   },
   "paths": {
