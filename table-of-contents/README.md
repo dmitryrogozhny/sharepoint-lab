@@ -3,11 +3,11 @@
 ## Summary
 This SharePoint Framework web part displays a table of contents for the current page.
 
-![web part preview](.\assets\table-of-contents-display.jpg)
+![web part preview](./assets/table-of-contents-display.jpg)
 
 ### Web part properties
 
-![web part properties](.\assets\table-of-contents-properties.jpg)
+![web part properties](./assets/table-of-contents-properties.jpg)
 
 The web part provides the following properties:
 - `Show Headings 1`&thinsp;&mdash;&thinsp;whether to show H1 headings.
