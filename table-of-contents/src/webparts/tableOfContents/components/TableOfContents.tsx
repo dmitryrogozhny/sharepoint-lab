@@ -23,7 +23,7 @@ interface Link {
 }
 
 export default class TableOfContents extends React.Component<ITableOfContentsProps, {}> {
-  private static timeout = 1000;
+  private static timeout = 500;
 
   private static h2Tag = "h2";
   private static h3Tag = "h3";
@@ -209,27 +209,15 @@ export default class TableOfContents extends React.Component<ITableOfContentsPro
   }
 
   /**
-   * Force the component to render after the timeout.
+   * Force the component to re-render with a specified interval.
    * This is needed to get valid id values for headers to use in links. Right after the rendering headers won't have valid ids, they are assigned later once the whole page got rendered.
    * The component will display the correct list of headers on the first render and will be able to process clicks (as a link to an HTMLElement is stored by the component).
-   * After the second render, the component will get valid ids for headers. This way a link can be copied by a user and it will be a valid link to a header.
+   * Once valid ids got assigned to headers by SharePoint code, the component will get valid ids for headers. This way a link from ToC can be copied by a user and it will be a valid link to a header.
    */
   public componentDidMount() {
-    setTimeout(() => {
+    setInterval(() => {
       this.setState({});
     }, TableOfContents.timeout);
-  }
-
-  /**
-   * Force the component to render when the display mode changes
-   * @param prevProps
-   */
-  public componentDidUpdate(prevProps) {
-    if (this.props.displayMode !== prevProps.displayMode) {
-      setTimeout(() => {
-        this.setState({});
-      }, TableOfContents.timeout);
-    }
   }
 
   public render(): JSX.Element {
