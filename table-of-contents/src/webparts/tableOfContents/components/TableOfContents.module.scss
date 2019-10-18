@@ -17,7 +17,7 @@
 
   // hide on medium screens and smaller
   .hideInMobileView {
-    @media screen and (max-width: $ms-screen-max-lg) {
+    @include ms-screen-lg-down {
       display: none !important;
     }
   }
