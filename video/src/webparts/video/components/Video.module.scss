@@ -1,0 +1,85 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.video {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  // container for video
+  .videoContainer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    // limit the max height
+    max-height: 800px;
+    overflow: hidden;
+
+    video {
+      // place video player under the filter and text
+      z-index: -1;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    // dimming filter over the video
+    .dimmingFilter {
+      z-index: 0;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 99%;
+    }
+
+    .textContainer {
+      position: absolute;
+      bottom: 0px;
+      max-width: 100%;
+      width: 100%;
+      left: 0px;
+
+      margin: 16px;
+
+      @include ms-screen-xl-up {
+        margin: 32px;
+      }
+
+      .overlayTextContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: unset;
+
+        .overlayText {
+          background-color: rgba(0, 0, 0, 0.88);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: pre-wrap;
+          word-break: break-all;
+          z-index: 1;
+          position: unset;
+          opacity: 1;
+          box-sizing: border-box;
+          font-weight: 600;
+          color: rgb(255, 255, 255);
+
+          max-width: 90%;
+
+          font-size: 20px;
+          padding: 8px 16px;
+          line-height: 30px;
+
+          @include ms-screen-xl-up {
+            font-size: 28px;
+            padding: 18px 24px;
+            line-height: 42px;
+          }
+        }
+      }
+    }
+  }
+
+  // utility class to hide content
+  .hidden {
+    display: none !important;
+  }
+}
