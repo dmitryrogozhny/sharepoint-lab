@@ -1,0 +1,790 @@
+{
+  "groups": [
+    {
+      "name": "Outlook",
+      "key": "Outlook",
+      "description": "",
+      "url": "",
+      "groups": [
+        {
+          "name": "Quick start",
+          "key": "Quick start",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Add an email account to Outlook",
+              "key": "Add an email account to Outlook",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": "https://support.office.com/en-us/client/e9da47c4-9b89-4b49-b945-a204aeea6726?embed=true&ns=trainingservices&version=1&fromOrigin=https://dmitryrogozhny.sharepoint.com"
+                }
+              ]
+            },
+            {
+              "name": "Create and send email in Outlook",
+              "key": "Create and send email in Outlook",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": "https://support.office.com/en-us/client/19c32deb-08b6-4f90-a211-02bc5f77f360?embed=true&ns=trainingservices&version=1&fromOrigin=https://dmitryrogozhny.sharepoint.com"
+                }
+              ]
+            },
+            {
+              "name": "Manage your calendar and contacts in Outlook",
+              "key": "Manage your calendar and contacts in Outlook",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": "https://support.office.com/en-us/client/631a182a-21e0-4e41-8fa2-0d83e55da02d?embed=true&ns=trainingservices&version=1&fromOrigin=https://dmitryrogozhny.sharepoint.com"
+                }
+              ]
+            },
+            {
+              "name": "Collaborate in Outlook",
+              "key": "Collaborate in Outlook",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": "https://support.office.com/en-us/client/63bf693d-76d4-410b-89d2-a3b63c729c22?embed=true&ns=trainingservices&version=1&fromOrigin=https://dmitryrogozhny.sharepoint.com"
+                }
+              ]
+            },
+            {
+              "name": "Set up your Outlook mobile app",
+              "key": "Set up your Outlook mobile app",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": "https://support.office.com/en-us/client/a2658b93-ca21-42fb-9f19-a61662f669fe?embed=true&ns=trainingservices&version=1&fromOrigin=https://dmitryrogozhny.sharepoint.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Set up and customize",
+          "key": "Set up and customize",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "What is Outlook?",
+              "key": "What is Outlook?",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Add an Outlook.com or Office 365 account",
+              "key": "Add an Outlook.com or Office 365 account",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Set up Gmail accounts",
+              "key": "Set up Gmail accounts",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create and send email",
+          "key": "Create and send email",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Welcome to your inbox",
+              "key": "Welcome to your inbox",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Create and send email",
+              "key": "Create and send email",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Create an email signature",
+              "key": "Create an email signature",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Sending and receiving attachments",
+              "key": "Sending and receiving attachments",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Retract or replace a sent email",
+              "key": "Retract or replace a sent email",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Manage email",
+          "key": "Manage email",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Set-up an automatic reply",
+              "key": "Set-up an automatic reply",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Search and filter email",
+              "key": "Search and filter email",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Ignore conversations",
+              "key": "Ignore conversations",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Clean up your inbox",
+              "key": "Clean up your inbox",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Organize your inbox",
+          "key": "Organize your inbox",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Set categories, flags, reminders, or colors",
+              "key": "Set categories, flags, reminders, or colors",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Organize email by using folders",
+              "key": "Organize email by using folders",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "How to set up Rules",
+              "key": "How to set up Rules",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Contacts and tasks",
+          "key": "Contacts and tasks",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Add a contact",
+              "key": "Add a contact",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Create a contact group",
+              "key": "Create a contact group",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Import contacts",
+              "key": "Import contacts",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Export contacts",
+              "key": "Export contacts",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Create tasks and a to-do list",
+              "key": "Create tasks and a to-do list",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calendar",
+          "key": "Calendar",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Welcome to your calendar",
+              "key": "Welcome to your calendar",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Create appointments and meetings",
+              "key": "Create appointments and meetings",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Schedule an online meeting",
+              "key": "Schedule an online meeting",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Share your calendar",
+              "key": "Share your calendar",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Import calendars",
+              "key": "Import calendars",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Search for calendar items",
+              "key": "Search for calendar items",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Use calendar categories and reminders",
+              "key": "Use calendar categories and reminders",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Shared calendars updates in preview",
+              "key": "Shared calendars updates in preview",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OneDrive",
+      "key": "OneDrive",
+      "description": "OneDrive video training",
+      "url": "",
+      "groups": [
+        {
+          "name": "Quick start",
+          "key": "Quick start",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Upload and save files and folders to OneDrive for Business",
+              "key": "Upload and save files and folders to OneDrive for Business",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Manage files and folders in OneDrive for Business",
+              "key": "Manage files and folders in OneDrive for Business",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Collaborate in OneDrive for Business",
+              "key": "Collaborate in OneDrive for Business",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Set up your mobile apps",
+              "key": "Set up your mobile apps",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Work on the go with OneDrive",
+              "key": "Work on the go with OneDrive",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Learn more about OneDrive for Business",
+              "key": "Learn more about OneDrive for Business",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Get started with OneDrive (business)",
+          "key": "Get started with OneDrive (business)",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": " What is OneDrive?",
+              "key": " What is OneDrive?",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Sign in or create an account",
+              "key": "Sign in or create an account",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "OneDrive basics",
+              "key": "OneDrive basics",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Set up your Android phone or tablet",
+              "key": "Set up your Android phone or tablet",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Set up your iPhone or iPad",
+              "key": "Set up your iPhone or iPad",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Use the OneDrive mobile app",
+              "key": "Use the OneDrive mobile app",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Manage your files",
+          "key": "Manage your files",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Upload files and folders",
+              "key": "Upload files and folders",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Create files and folders",
+              "key": "Create files and folders",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Delete and restore files",
+              "key": "Delete and restore files",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Organize and find photos in OneDrive",
+              "key": "Organize and find photos in OneDrive",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "What happens when you delete files in the cloud",
+              "key": "What happens when you delete files in the cloud",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Turn on OneDrive Backup",
+              "key": "Turn on OneDrive Backup",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Restore your OneDrive",
+              "key": "Restore your OneDrive",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Share and sync",
+          "key": "Share and sync",
+          "description": "",
+          "url": "",
+          "groups": [
+            {
+              "name": "Share files and folders",
+              "key": "Share files and folders",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Sync files and folders",
+              "key": "Sync files and folders",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "Sync files with OneDrive Files on Demand",
+              "key": "Sync files with OneDrive Files on Demand",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "name": "can, sign, and share documents",
+              "key": "can, sign, and share documents",
+              "description": "",
+              "url": "",
+              "content": [
+                {
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Word",
+      "key": "Word",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "Excel",
+      "key": "Excel",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "PowerPoint",
+      "key": "PowerPoint",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "OneNote",
+      "key": "OneNote",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "SharePoint",
+      "key": "SharePoint",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "Stream",
+      "key": "Stream",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "Sway",
+      "key": "Sway",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "To-Do",
+      "key": "To-Do",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "Visio",
+      "key": "Visio",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "Project",
+      "key": "Project",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "Teams",
+      "key": "Teams",
+      "description": "",
+      "url": ""
+    }
+  ]
+}

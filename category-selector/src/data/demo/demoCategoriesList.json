@@ -1,0 +1,100 @@
+{
+  "groups": [
+    {
+      "name": "Benefits",
+      "key": "Benefits",
+      "description": "Includes eligibility, appeals, tax credits and Universal Credit",
+      "url": ""
+    },
+    {
+      "name": "Births, deaths, marriages and care",
+      "key": "Births, deaths, marriages and care",
+      "description": "Parenting, civil partnerships, divorce and Lasting Power of Attorney",
+      "url": ""
+    },
+    {
+      "name": "Business and self-employed",
+      "key": "Business and self-employed",
+      "description": "Tools and guidance for businesses",
+      "url": ""
+    },
+    {
+      "name": "Childcare and parenting",
+      "key": "Childcare and parenting",
+      "description": "Includes giving birth, fostering, adopting, benefits for children, childcare and schools",
+      "url": ""
+    },
+    {
+      "name": "Citizenship and living in the UK",
+      "key": "Citizenship and living in the UK",
+      "description": "Voting, community participation, life in the UK, international projects",
+      "url": ""
+    },
+    {
+      "name": "Crime, justice and the law",
+      "key": "Crime, justice and the law",
+      "description": "Legal processes, courts and the police",
+      "url": ""
+    },
+    {
+      "name": "Disabled people",
+      "key": "Disabled people",
+      "description": "Includes carers, your rights, benefits and the Equality Act",
+      "url": ""
+    },
+    {
+      "name": "Driving and transport",
+      "key": "Driving and transport",
+      "description": "Includes vehicle tax, MOT and driving licences",
+      "url": ""
+    },
+    {
+      "name": "Education and learning",
+      "key": "Education and learning",
+      "description": "Includes student loans, admissions and apprenticeships",
+      "url": ""
+    },
+    {
+      "name": "Employing people",
+      "key": "Employing people",
+      "description": "Includes pay, contracts and hiring",
+      "url": ""
+    },
+    {
+      "name": "Environment and countryside",
+      "key": "Environment and countryside",
+      "description": "Includes flooding, recycling and wildlife",
+      "url": ""
+    },
+    {
+      "name": "Housing and local services",
+      "key": "Housing and local services",
+      "description": "Owning or renting and council services",
+      "url": ""
+    },
+    {
+      "name": "Money and tax",
+      "key": "Money and tax",
+      "description": "Includes debt and Self Assessment",
+      "url": ""
+    },
+    {
+      "name": "Passports, travel and living abroad",
+      "key": "Passports, travel and living abroad",
+      "description": "Includes renewing passports and travel advice by country",
+      "url": ""
+    },
+    {
+      "name": "Visas and immigration",
+      "key": "Visas and immigration",
+      "description": "Visas, asylum and sponsorship",
+      "url": ""
+    },
+    {
+      "name": "Working, jobs and pensions",
+      "key": "Working, jobs and pensions",
+      "description": "Includes holidays and finding a job",
+      "url": ""
+    }
+  ]
+}

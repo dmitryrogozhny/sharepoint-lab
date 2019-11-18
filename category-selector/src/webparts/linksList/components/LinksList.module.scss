@@ -1,0 +1,51 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+$break-xl: 1024px;
+
+.linksList {
+  // basic styles: display items in a single vertical list
+  .list {
+    @include ms-normalize;
+    list-style-type: none;
+  }
+
+  .listItem {
+    vertical-align: top;
+    border: 1px solid transparent;
+  }
+
+  .title {
+    @include ms-fontSize-l;
+    @include ms-fontWeight-semibold;
+    line-height: 125%;
+
+    margin: 0;
+    padding: 0 15px 0 0;
+  }
+
+  .description {
+    display: block;
+
+    @include ms-fontSize-mPlus;
+    @include ms-fontWeight-regular;
+    line-height: 125%;
+
+    margin: 0;
+    padding: 0 15px 15px 0;
+  }
+
+  // styles for larger screens: display items in 2 columns
+  @media screen and (min-width: $break-xl) {
+    .list {
+      columns: 3 auto;
+    }
+
+    .listItem {
+      display: inline-block;
+
+      .description {
+        min-height: 60px;
+      }
+    }
+  }
+}

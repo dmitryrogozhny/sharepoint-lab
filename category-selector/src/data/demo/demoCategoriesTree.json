@@ -1,0 +1,1368 @@
+{
+  "groups": [{
+      "name": "Benefits",
+      "key": "Benefits",
+      "url": "",
+      "groups": [{
+        "name": "How benefits work",
+        "key": "How benefits work",
+        "url": "",
+        "description": "Benefit calculators, how payments work, changes of circumstance, benefit fraud and appeals",
+        "content": [{
+          "name": "What you can get",
+          "links": [{
+              "name": "Benefits calculators",
+              "url": "#"
+            },
+            {
+              "name": "Benefit cap",
+              "url": "#"
+            },
+            {
+              "name": "Benefit cap calculator ",
+              "url": "#"
+            }
+          ]
+        }, {
+          "name": "Payments",
+          "links": [{
+              "name": "How and when your benefits are paid",
+              "url": "#"
+            },
+            {
+              "name": "Get an advance on your first benefit payment",
+              "url": "#"
+            },
+            {
+              "name": "Home visit to check your benefit payment ",
+              "url": "#"
+            }
+          ]
+        }, {
+          "name": "Extra help and support",
+          "links": [{
+              "name": "Payment Exception Service",
+              "url": "#"
+            },
+            {
+              "name": "Support visits if you need help to claim benefits",
+              "url": "#"
+            },
+            {
+              "name": "Get help with NHS prescriptions and health costs ",
+              "url": "#"
+            }
+          ]
+        }, {
+          "name": "Changes of circumstance",
+          "links": [{
+              "name": "Benefits: report a change in your circumstances",
+              "url": "#"
+            },
+            {
+              "name": "Claiming benefits if you live, move or travel abroad",
+              "url": "#"
+            },
+            {
+              "name": "Benefits and prison ",
+              "url": "#"
+            }
+          ]
+        }, {
+          "name": "Overpayments and fraud",
+          "links": [{
+              "name": "Benefit overpayments",
+              "url": "#"
+            },
+            {
+              "name": "Benefit fraud",
+              "url": "#"
+            },
+            {
+              "name": "Fraud and Error Prevention Service centres ",
+              "url": "#"
+            }
+          ]
+        }, {
+          "name": "Appeal or complain about a decision",
+          "links": [{
+              "name": "Challenge a benefit decision (mandatory reconsideration)",
+              "url": "#"
+            },
+            {
+              "name": "Appeal a benefit decision",
+              "url": "#"
+            },
+            {
+              "name": "Complain to the Independent Case Examiner",
+              "url": "#"
+            }
+          ]
+        }]
+      }, {
+        "name": "Universal Credit",
+        "key": "Universal Credit",
+        "url": "",
+        "description": "Applying, signing into your account, and help with housing, disability, health conditions and unemployment",
+        "content": [{
+          "name": "Overview",
+          "links": [{
+              "name": "Universal Credit",
+              "url": "#"
+            },
+            {
+              "name": "Housing costs and Universal Credit",
+              "url": "#"
+            },
+            {
+              "name": "Health conditions, disability and Universal Credit",
+              "url": "#"
+            },
+            {
+              "name": "Self-employment and Universal Credit",
+              "url": "#"
+            }
+
+          ]
+        }, {
+          "name": "Make an application",
+          "links": [{
+              "name": "How to claim Universal Credit: step by step",
+              "url": "#"
+            },
+            {
+              "name": "Apply for Universal Credit",
+              "url": "#"
+            },
+            {
+              "name": "Benefits calculators",
+              "url": "#"
+            }
+
+          ]
+        }, {
+          "name": "After you've applied",
+          "links": [{
+              "name": "Sign in to your Universal Credit account",
+              "url": "#"
+            },
+            {
+              "name": "Find a job",
+              "url": "#"
+            },
+            {
+              "name": "How to claim 'new style' Jobseeker's Allowance (JSA): step by step",
+              "url": "#"
+            },
+            {
+              "name": "How to claim 'new style' Employment and Support Allowance (ESA): step by step",
+              "url": "#"
+            }
+          ]
+        }, {
+          "name": "Detailed guidance",
+          "links": [{
+            "name": "Universal Credit",
+            "url": "#"
+          }]
+        }]
+      }, {
+        "name": "Tax credits",
+        "key": "Tax credits",
+        "url": "",
+        "description": "Getting Working Tax Credit and Child Tax Credit, managing your tax credits and when tax credits stop",
+        "content": [
+        ]
+      }, {
+        "name": "Jobseeker's Allowance and low income benefits",
+        "key": "Jobseeker's Allowance and low income benefits",
+        "url": "",
+        "description": "Getting JSA, Income Support, Budgeting Loans and other help if you’re on a low income",
+        "content": [
+        ]
+      }, {
+        "name": "Carers and disability benefits",
+        "key": "Carers and disability benefits",
+        "url": "",
+        "description": "Help for disabilities including Personal Independence Payment, Carer's Allowance, and Employment and Support Allowance",
+        "content": [
+        ]
+      }, {
+        "name": "Child Benefit",
+        "key": "Child Benefit",
+        "url": "",
+        "description": "Getting and managing your Child Benefit",
+        "content": [
+        ]
+      }, {
+        "name": "Benefits for families",
+        "key": "Benefits for families",
+        "url": "",
+        "description": "Getting maternity pay, help with childcare and free school meals",
+        "content": [
+        ]
+      }, {
+        "name": "Heating and housing benefits",
+        "key": "Heating and housing benefits",
+        "url": "",
+        "description": "Getting Housing Benefit, Winter Fuel Payment, Cold Weather Payment and other help for housing costs",
+        "content": [
+        ]
+      }, {
+        "name": "Death and benefits",
+        "key": "Death and benefits",
+        "url": "",
+        "description": "Getting Widowed Parent's Allowance, Bereavement Payment and other help when someone dies",
+        "content": [
+        ]
+      }]
+    },
+    {
+      "name": "Births, deaths, marriages and care",
+      "key": "Births, deaths, marriages and care",
+      "url": "",
+      "groups": [{
+          "name": "Certificates, register offices, changes of name or gender",
+          "key": "Certificates, register offices, changes of name or gender",
+          "url": "",
+          "description": "Birth certificates, registering a death, marriage, family history and correcting certificates",
+          "content": [
+          ]
+        },
+        {
+          "name": "Child Benefit",
+          "key": "Child Benefit",
+          "url": "",
+          "description": "Information about eligibility, claiming and when Child Benefit stops",
+          "content": [
+          ]
+        },
+        {
+          "name": "Death and bereavement",
+          "key": "Death and bereavement",
+          "url": "",
+          "description": "Reporting a death, wills, probate and Inheritance Tax",
+          "content": [
+          ]
+        },
+        {
+          "name": "Having a child, parenting and adoption",
+          "key": "Having a child, parenting and adoption",
+          "url": "",
+          "description": "Legal rights, birth certificates, parental rights and child maintenance",
+          "content": [
+          ]
+        },
+        {
+          "name": "Lasting power of attorney, being in care and your financial affairs",
+          "key": "Lasting power of attorney, being in care and your financial affairs",
+          "url": "",
+          "description": "Includes dealing with benefits, taxes and leaving care",
+          "content": [
+          ]
+        },
+        {
+          "name": "Marriage, civil partnership and divorce",
+          "key": "Marriage, civil partnership and divorce",
+          "url": "",
+          "description": "Includes getting married abroad, decree absolutes and looking after children",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business and self-employed",
+      "key": "Business and self-employed",
+      "url": "",
+      "groups": [{
+          "name": "Setting up",
+          "key": "Setting up",
+          "url": "",
+          "description": "Includes self-employment and starting a business",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Business tax",
+          "key": "Business tax",
+          "url": "",
+          "description": "Includes Corporation Tax, Capital Gains Tax, Construction Industry Scheme (CIS) and VAT",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Business finance and support",
+          "key": "Business finance and support",
+          "url": "",
+          "description": "Finding finance, business support, writing a business plan",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Running a limited company",
+          "key": "Running a limited company",
+          "url": "",
+          "description": "Includes registering, setting up, company accounts and tax returns",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Expenses and employee benefits",
+          "key": "Expenses and employee benefits",
+          "url": "",
+          "description": "Includes company cars and paying tax on employee benefits",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Business debt and bankruptcy",
+          "key": "Business debt and bankruptcy",
+          "url": "",
+          "description": "Includes bankruptcy, insolvency and recovering debt",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Business premises and business rates",
+          "key": "Business premises and business rates",
+          "url": "",
+          "description": "Includes leases, renting, planning permission, waste and appeals",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Food, catering and retail",
+          "key": "Food, catering and retail",
+          "url": "",
+          "description": "Labelling and handling food, transporting, food safety",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Importing",
+          "key": "Importing",
+          "url": "",
+          "description": "Includes moving goods in the EU and commodity codes",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Exporting and doing business abroad",
+          "key": "Exporting and doing business abroad",
+          "url": "",
+          "description": "Includes moving goods in the EU and commodity codes",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Licences and licence applications",
+          "key": "Licences and licence applications",
+          "url": "",
+          "description": "Applying for licences for events and businesses",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Selling your business and closing down",
+          "key": "Selling your business and closing down",
+          "url": "",
+          "description": "Stopping self-employment, winding up or liquidating a limited company",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Sale of goods and services and data protection",
+          "key": "Sale of goods and services and data protection",
+          "url": "",
+          "description": "Includes regulations for online retailers, offering credit and Trading Standards",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Childcare providers",
+          "key": "Childcare providers",
+          "url": "",
+          "description": "Includes registering as a childcare provider",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Farming business",
+          "key": "Farming business",
+          "url": "",
+          "description": "Health and safety, registering and licensing animals, compliance tools, rights and pay",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Manufacturing",
+          "key": "Manufacturing",
+          "url": "",
+          "description": "Managing waste, health and safety, regulations",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Patents, trade marks, copyright and designs",
+          "key": "Patents, trade marks, copyright and designs",
+          "url": "",
+          "description": "Includes registering, protecting and applying for designs and patents",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Waste and environmental impact",
+          "key": "Waste and environmental impact",
+          "url": "",
+          "description": "Includes waste management plans, hazardous waste and preventing pollution",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Scientific research and development",
+          "key": "Scientific research and development",
+          "url": "",
+          "description": "Includes funding and support scheme guidance",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Generating energy",
+          "key": "Generating energy",
+          "url": "",
+          "description": "Funding, regulations and guidance for energy providers and operators",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Maritime vessels and work at sea",
+          "key": "Maritime vessels and work at sea",
+          "url": "",
+          "description": "Includes health and safety onboard, crew, registering vessels",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Childcare and parenting",
+      "key": "Childcare and parenting",
+      "url": "",
+      "groups": [{
+          "name": "Pregnancy and birth",
+          "key": "Pregnancy and birth",
+          "url": "",
+          "description": "Working, time off and financial support when you have a baby, registering a birth",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Fostering, adoption and surrogacy",
+          "key": "Fostering, adoption and surrogacy",
+          "url": "",
+          "description": "Fostering or adopting a child, including from abroad, and being a surrogate mother",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Financial help if you have children",
+          "key": "Financial help if you have children",
+          "url": "",
+          "description": "Includes help when having a baby or adopting, child benefit and tax credits, support for childcare",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Childcare",
+          "key": "Childcare",
+          "url": "",
+          "description": "Finding childcare, financial support for childcare and childcare for school-age children",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Schools and education",
+          "key": "Schools and education",
+          "url": "",
+          "description": "Sending a child to school, financial support, dealing with the school",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Divorce, separation and legal issues",
+          "key": "Divorce, separation and legal issues",
+          "url": "",
+          "description": "Child maintenance and disagreements about parentage",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Citizenship and living in the UK",
+      "key": "Citizenship and living in the UK",
+      "url": "",
+      "groups": [{
+          "name": "British citizenship",
+          "key": "British citizenship",
+          "url": "",
+          "description": "Becoming a citizen, Life in the UK test and getting a passport",
+          "content": [
+          ]
+        },
+        {
+          "name": "Charities, volunteering and honours",
+          "key": "Charities, volunteering and honours",
+          "url": "",
+          "description": "Nominating someone for an honour, setting up a charity, community participation",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Living in the UK, government and democracy",
+          "key": "Living in the UK, government and democracy",
+          "url": "",
+          "description": "Petitioning the government, government statistics, national emergencies and terrorism",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Voting",
+          "key": "Voting",
+          "url": "",
+          "description": "Register to vote, getting on the electoral register and voting by proxy",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crime, justice and the law",
+      "key": "Crime, justice and the law",
+      "url": "",
+      "groups": [{
+          "name": "Courts, sentencing and tribunals",
+          "key": "Courts, sentencing and tribunals",
+          "url": "",
+          "description": "Attending courts, paying fines, appealing a sentence, jury service and tribunals",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Prisons and probation",
+          "key": "Prisons and probation",
+          "url": "",
+          "description": "Sentencing, probation and support for families of prisoners",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Reporting crimes and getting compensation",
+          "key": "Reporting crimes and getting compensation",
+          "url": "",
+          "description": "Including criminal injuries compensation and reporting suspected crimes",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Young people and the law",
+          "key": "Young people and the law",
+          "url": "",
+          "description": "Includes legal rights, youth offending teams and crime prevention",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Your rights and the law",
+          "key": "Your rights and the law",
+          "url": "",
+          "description": "Includes being arrested, cautions, discrimination and consumer rights",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disabled people",
+      "key": "Disabled people",
+      "url": "",
+      "groups": [{
+          "name": "Benefits and financial help",
+          "key": "Benefits and financial help",
+          "url": "",
+          "description": "Includes Disability Living Allowance, Employment and Support Allowance and Attendance Allowance",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Carers",
+          "key": "Carers",
+          "url": "",
+          "description": "Includes Carer's Allowance, disabled children and disability day care centres",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Disability equipment and transport",
+          "key": "Disability equipment and transport",
+          "url": "",
+          "description": "Includes Disabled Students Allowances, Blue Badge and disabled access",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Disability rights",
+          "key": "Disability rights",
+          "url": "",
+          "description": "Disability rights under the Equality Act 2010",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Work and disabled people",
+          "key": "Work and disabled people",
+          "url": "",
+          "description": "Includes recruitment and disabled people, reasonable adjustments at work and Access to Work",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driving and transport",
+      "key": "Driving and transport",
+      "url": "",
+      "groups": [{
+        "name": "Driving licences",
+        "key": "Driving licences",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Vehicle tax, MOT and insurance",
+        "key": "Vehicle tax, MOT and insurance",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Driving tests and learning to drive or ride",
+        "key": "Driving tests and learning to drive or ride",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Number plates, vehicle registration and log books",
+        "key": "Number plates, vehicle registration and log books",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Buy, sell or scrap a vehicle",
+        "key": "Buy, sell or scrap a vehicle",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Driving with medical conditions, Blue Badges and public transport if you're disabled",
+        "key": "Driving with medical conditions, Blue Badges and public transport if you're disabled",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "The Highway Code, road safety and vehicle rules",
+        "key": "The Highway Code, road safety and vehicle rules",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Vehicle and driver data and information",
+        "key": "Vehicle and driver data and information",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Penalty points, fines and driving bans",
+        "key": "Penalty points, fines and driving bans",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Driving in the UK and abroad",
+        "key": "Driving in the UK and abroad",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Lorry, bus and coach drivers",
+        "key": "Lorry, bus and coach drivers",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Transport and driving businesses",
+        "key": "Transport and driving businesses",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Teaching people to drive",
+        "key": "Teaching people to drive",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Driving and enforcing the law",
+        "key": "Driving and enforcing the law",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Parking, public transport and the environment",
+        "key": "Parking, public transport and the environment",
+        "url": "",
+        "content": [
+        ]
+      }, {
+        "name": "Manufacture or adapt a vehicle",
+        "key": "Manufacture or adapt a vehicle",
+        "url": "",
+        "content": [
+        ]
+      }]
+    },
+    {
+      "name": "Education and learning",
+      "key": "Education and learning",
+      "url": "",
+      "groups": [{
+          "name": "Apprenticeships, 14 to 19 education and training for work",
+          "key": "Apprenticeships, 14 to 19 education and training for work",
+          "url": "",
+          "description": "Includes finding a course, finding an apprenticeship, 16 to 19 Bursary Fund",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "School admissions and transport to school",
+          "key": "School admissions and transport to school",
+          "url": "",
+          "description": "Applying for a school place, home schooling and travel costs",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Schools and curriculum",
+          "key": "Schools and curriculum",
+          "url": "",
+          "description": "Help with school costs, the curriculum and school attendance",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Student finance",
+          "key": "Student finance",
+          "url": "",
+          "description": "Including loans, bursaries, grants, student finance and paying back loans",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Universities and higher education",
+          "key": "Universities and higher education",
+          "url": "",
+          "description": "Finding courses, comparing qualifications and checking a university is recognised",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Employing people",
+      "key": "Employing people",
+      "url": "",
+      "groups": [{
+          "name": "Contracts of employment and working hours",
+          "key": "Contracts of employment and working hours",
+          "url": "",
+          "description": "Includes types of worker, employee rights, overtime and changes to contracts",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Dismissing staff and redundancies",
+          "key": "Dismissing staff and redundancies",
+          "url": "",
+          "description": "Resignations, dismissals, disciplinaries and redundancy pay",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Health and safety at work",
+          "key": "Health and safety at work",
+          "url": "",
+          "description": "Accidents, health and safety law and workplace conditions",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Payroll",
+          "key": "Payroll",
+          "url": "",
+          "description": "PAYE for employers, getting started, reporting and paying HMRC, expenses and benefits",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Pensions for your staff",
+          "key": "Pensions for your staff",
+          "url": "",
+          "description": "Includes workplace pensions and Combined Pension Statements",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Recruiting and hiring",
+          "key": "Recruiting and hiring",
+          "url": "",
+          "description": "Advertise a job, Disclosure and Barring (DBS) checks, discrimination law and apprenticeships",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Statutory leave and time off",
+          "key": "Statutory leave and time off",
+          "url": "",
+          "description": "Includes maternity and paternity leave, holiday entitlement and sick pay",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Trade unions and workers rights",
+          "key": "Trade unions and workers rights",
+          "url": "",
+          "description": "Includes industrial action and recognising trade unions",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Environment and countryside",
+      "key": "Environment and countryside",
+      "url": "",
+      "groups": [{
+          "name": "Boats and waterways",
+          "key": "Boats and waterways",
+          "url": "",
+          "description": "Boat registration, boat safety and river levels",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Coasts",
+          "key": "Coasts",
+          "url": "",
+          "description": "Coastal erosion, flood defences, bathing water quality",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Countryside",
+          "key": "Countryside",
+          "url": "",
+          "description": "Countryside Code, access to the countryside, landscape",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Fishing and hunting",
+          "key": "Fishing and hunting",
+          "url": "",
+          "description": "Fishing rod licences, permission and byelaws, lawful hunting",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Flooding and extreme weather",
+          "key": "Flooding and extreme weather",
+          "url": "",
+          "description": "Flood warnings and getting help",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Recycling and waste management",
+          "key": "Recycling and waste management",
+          "url": "",
+          "description": "Business and commercial waste, environmental permits, report an incident",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Treasure and wrecks",
+          "key": "Treasure and wrecks",
+          "url": "",
+          "description": "Report wreck material and treasure finds",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Wildlife and biodiversity",
+          "key": "Wildlife and biodiversity",
+          "url": "",
+          "description": "Protected species, report a sighting",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Housing and local services",
+      "key": "Housing and local services",
+      "url": "",
+      "groups": [{
+          "name": "Being a landlord and renting out a room",
+          "key": "Being a landlord and renting out a room",
+          "url": "",
+          "description": "Includes tenancy agreements, deposit protection scheme and evicting tenants",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Council Tax",
+          "key": "Council Tax",
+          "url": "",
+          "description": "Includes council tax appeals, bands, discounts and reductions",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Council housing and housing association",
+          "key": "Council housing and housing association",
+          "url": "",
+          "description": "Includes Right to Buy, shared ownership and getting repairs",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Household energy",
+          "key": "Household energy",
+          "url": "",
+          "description": "Includes grants, energy saving and renewable energy for your home",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Local councils and services",
+          "key": "Local councils and services",
+          "url": "",
+          "description": "Find and access local services",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Noise, neighbours, pets and pests",
+          "key": "Noise, neighbours, pets and pests",
+          "url": "",
+          "description": "Includes neighbour disputes, reporting noise nuisance, pest control and looking after pets",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Owning and renting a property",
+          "key": "Owning and renting a property",
+          "url": "",
+          "description": "Includes buying and selling your home, compensation, mortgages and property boundaries",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Planning permission and building regulations",
+          "key": "Planning permission and building regulations",
+          "url": "",
+          "description": "Includes building regulation approvals, planning decisions and party walls",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Recycling, rubbish, streets and roads",
+          "key": "Recycling, rubbish, streets and roads",
+          "url": "",
+          "description": "Includes collecting large waste items, garden waste and reporting problems",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Repossessions, emergency housing and evictions",
+          "key": "Repossessions, emergency housing and evictions",
+          "url": "",
+          "description": "Includes eviction from private, council and housing association properties, and squatting",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Safety and the environment in your community",
+          "key": "Safety and the environment in your community",
+          "url": "",
+          "description": "Includes smoke control areas, road safety and crime prevention",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Money and tax",
+      "key": "Money and tax",
+      "url": "",
+      "groups": [{
+          "name": "Capital Gains Tax",
+          "key": "Capital Gains Tax",
+          "url": "",
+          "description": "Tax when you sell property, shares, personal possessions and business assets",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Court claims, debt and bankruptcy",
+          "key": "Court claims, debt and bankruptcy",
+          "url": "",
+          "description": "Includes recovering debts, registering for bankruptcy and as a creditor",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Dealing with HMRC",
+          "key": "Dealing with HMRC",
+          "url": "",
+          "description": "Reporting changes, agents, appeals, checks, complaints and help with tax",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Income Tax",
+          "key": "Income Tax",
+          "url": "",
+          "description": "Includes rates and allowances, tax codes and refunds",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Inheritance Tax",
+          "key": "Inheritance Tax",
+          "url": "",
+          "description": "Includes valuing an estate, trusts and taxes",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "National Insurance",
+          "key": "National Insurance",
+          "url": "",
+          "description": "Voluntary contributions and credits, numbers, rates and classes",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Self Assessment",
+          "key": "Self Assessment",
+          "url": "",
+          "description": "Includes filing, deadlines, pay and tax records",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "VAT",
+          "key": "VAT",
+          "url": "",
+          "description": "Includes online returns, rates, charging and record keeping",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Passports, travel and living abroad",
+      "key": "Passports, travel and living abroad",
+      "url": "",
+      "groups": [{
+          "name": "Living abroad",
+          "key": "Living abroad",
+          "url": "",
+          "description": "Includes tax, State Pension, benefits and UK government services abroad",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Passports",
+          "key": "Passports",
+          "url": "",
+          "description": "Eligibility, fees, applying, renewing and updating",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Travel abroad",
+          "key": "Travel abroad",
+          "url": "",
+          "description": "Includes the latest travel advice by country, your rights at the airport and getting help abroad",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Visas and immigration",
+      "key": "Visas and immigration",
+      "url": "",
+      "groups": [{
+          "name": "What you need to do",
+          "key": "What you need to do",
+          "url": "",
+          "description": "Check if you need a UK visa, apply, manage your application, biometric residence permits",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "EU, EEA and Commonwealth citizens",
+          "key": "EU, EEA and Commonwealth citizens",
+          "url": "",
+          "description": "Settled and pre-settled status for EU citizens, EEA family permits, UK Ancestry visa",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Visit the UK",
+          "key": "Visit the UK",
+          "url": "",
+          "description": "Visit for a holiday, business or a short stay (up to 6 months), airport transit visas",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Study in the UK",
+          "key": "Study in the UK",
+          "url": "",
+          "description": "Short-term study visas and visas for longer courses, degrees and independent schools",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Work in the UK",
+          "key": "Work in the UK",
+          "url": "",
+          "description": "Paid and voluntary work, entrepreneur and investor visas",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Family in the UK",
+          "key": "Family in the UK",
+          "url": "",
+          "description": "Partner, spouse and family member visas and permits",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Live permanently in the UK",
+          "key": "Live permanently in the UK",
+          "url": "",
+          "description": "Ways to settle in the UK and routes to British citizenship",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Seek protection or asylum",
+          "key": "Seek protection or asylum",
+          "url": "",
+          "description": "Claiming asylum as a refugee, the asylum process and support",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Immigration appeals and status problems",
+          "key": "Immigration appeals and status problems",
+          "url": "",
+          "description": "Appeal against a visa, settlement or asylum decision, immigration status problems",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Travelling to the UK",
+          "key": "Travelling to the UK",
+          "url": "",
+          "description": "Moving your belongings, going through customs and tax",
+          "content": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Working, jobs and pensions",
+      "key": "Working, jobs and pensions",
+      "url": "",
+      "groups": [{
+          "name": "Armed forces",
+          "key": "Armed forces",
+          "url": "",
+          "description": "Includes reserve forces and armed forces pensions, benefits and financial assistance.",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Finding a job",
+          "key": "Finding a job",
+          "url": "",
+          "description": "Job search, Jobseeker's Allowance (JSA), volunteering, apprenticeships and job offers",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Holidays, time off, sick leave, maternity and paternity leave",
+          "key": "Holidays, time off, sick leave, maternity and paternity leave",
+          "url": "",
+          "description": "Includes career breaks and the holiday entitlement calculator",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Redundancies, dismissals and disciplinaries",
+          "key": "Redundancies, dismissals and disciplinaries",
+          "url": "",
+          "description": "Includes solving a workplace dispute, calculating redundancy pay and dismissal",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "State Pension",
+          "key": "State Pension",
+          "url": "",
+          "description": "Calculating State Pension, Pension Credit, eligibility, claiming and deferring",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Workplace and personal pensions",
+          "key": "Workplace and personal pensions",
+          "url": "",
+          "description": "Includes automatic enrolment, lost pensions and planning for retirement",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Your contract and working hours",
+          "key": "Your contract and working hours",
+          "url": "",
+          "description": "Includes employment status, workers' rights and changes to contracts",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Your pay, tax and the National Minimum Wage",
+          "key": "Your pay, tax and the National Minimum Wage",
+          "url": "",
+          "description": "Includes National Minimum Wage rates, keeping pay records and pay rights",
+          "content": [
+          ]
+        },
+
+        {
+          "name": "Your rights at work and trade unions",
+          "key": "Your rights at work and trade unions",
+          "url": "",
+          "description": "Includes health and safety, accidents at work and joining a trade union",
+          "content": [
+          ]
+        }
+      ]
+    }
+  ]
+}

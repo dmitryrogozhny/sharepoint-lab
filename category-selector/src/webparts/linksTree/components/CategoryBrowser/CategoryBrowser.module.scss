@@ -1,0 +1,114 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+$break-l: 640px;
+
+// width of every list
+$width: 250px;
+// slide left to cover the previous panel completely (used for small screens)
+$margin-full: -$width;
+// how much to slide panels to the left on select (used for larger screens)
+$margin: -150px;
+// shifting transition time
+$transition-delay: 500ms;
+
+.categoryBrowser {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .visibleOnMobile {
+    display: block;
+  }
+
+  @media screen and (min-width: $break-l) {
+    .visibleOnMobile {
+      display: none;
+    }
+  }
+
+  .list {
+    position: relative;
+
+    width: $width;
+    min-width: $width;
+
+    margin-left: 0;
+    background-color: "[theme: primaryBackground, default: #FFF]";
+
+    transition: all $transition-delay;
+  }
+
+  // add left border for larger screens
+  @media screen and (min-width: $break-l) {
+    .list {
+      // add left border for the list
+      border-left: 1px solid #ccc;
+    }
+  }
+
+  // shifts the content to the left.
+  .shifted {
+    margin-left: $margin-full;
+    z-index: 2;
+  }
+
+  // styles for the last list in a stack
+  .current {
+    margin-left: $margin-full;
+    z-index: 2;
+  }
+
+  // for larger screens
+  @media screen and (min-width: $break-l) {
+
+    // do not slide all the width to the left, just a part of the width
+    .shifted {
+      margin-left: $margin;
+      z-index: 2;
+    }
+
+    // do not slide the last panel to the left
+    .current {
+      margin-left: 0;
+      z-index: 2;
+    }
+  }
+
+  // prevent left border for the root list
+  .noBorder {
+    border-left: 0px;
+  }
+
+  .content {
+    opacity: 1;
+    width: 100%;
+  }
+
+  // slide the content panel to the left to cover the navigation panels
+  .appear {
+    margin-left: $margin-full;
+    z-index: 3;
+  }
+
+  @media screen and (min-width: $break-l) {
+
+    // content style, transparent by default for larger screens.
+    .content {
+      opacity: 0;
+      transition: opacity 1000ms;
+    }
+
+    // make the content appear after shifting to the left.
+    // This looks better than just shifting the content with .shifted
+    .appear {
+      opacity: 1;
+      margin-left: 0;
+    }
+  }
+}

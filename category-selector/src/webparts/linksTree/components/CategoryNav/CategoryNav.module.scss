@@ -1,0 +1,45 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.categoryNav {
+  .header {
+    @include ms-fontSize-xl;
+
+    line-height: 110%;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .linkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    .icon {
+      font-size: .5em;
+      padding-left: 5px;
+    }
+
+    .link {
+      @include ms-fontSize-mPlus;
+      @include ms-fontWeight-regular;
+      line-height: 125%;
+    }
+
+    .linkBold {
+      @include ms-fontSize-mPlus;
+      @include ms-fontWeight-semibold;
+      line-height: 125%;
+
+      padding-bottom: 2px;
+    }
+
+    .description {
+      @include ms-font-m;
+      line-height: 140%;
+    }
+  }
+}

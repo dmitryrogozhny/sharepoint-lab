@@ -1,0 +1,42 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+$break-l: 640px;
+
+.contentView {
+  width: 100%;
+  height: 100%;
+
+  .iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: $break-l) {
+    padding-left: 23px;
+  }
+
+  .header {
+    @include ms-fontSize-xl;
+    line-height: 110%;
+
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .sectionTitle {
+    @include ms-fontSize-l;
+    @include ms-fontWeight-semibold;
+    line-height: 125%;
+
+    margin-bottom: 3px;
+  }
+
+  .link {
+    @include ms-fontSize-l;
+    @include ms-fontWeight-semibold;
+    line-height: 125%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
