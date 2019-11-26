@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "57e0a101-017b-4b4f-8f06-c0d29cd53092": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "linksListTitle": "PnP-PortalFooter-Links",
+            "copyright": "Ⓒ Copyright Contoso, 2019-2020",
+            "support": "support@contoso.com",
+            "personalItemsStorageProperty": "PnP-CollabFooter-MyLinks"
+          }
+        }
+      }
+    },
+    "portalFooter": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "57e0a101-017b-4b4f-8f06-c0d29cd53092": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
