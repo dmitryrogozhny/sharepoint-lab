@@ -4,6 +4,6 @@
         Title="PortalFooter"
         Location="ClientSideExtension.ApplicationCustomizer"
         ComponentId="57e0a101-017b-4b4f-8f06-c0d29cd53092"
-        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+        Properties="{&quot;linksListTitle&quot;:&quot;PnP-PortalFooter-Links&quot;,&quot;copyright&quot;:&quot;Ⓒ Copyright Contoso, 2019-2020&quot;,&quot;support&quot;:&quot;support@contoso.com&quot;,&quot;personalItemsStorageProperty&quot;:&quot;PnP-CollabFooter-MyLinks&quot;}">
     </ClientSideComponentInstance>
 </Elements>

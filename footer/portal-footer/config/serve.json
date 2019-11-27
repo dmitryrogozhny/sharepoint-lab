@@ -23,7 +23,10 @@
         "57e0a101-017b-4b4f-8f06-c0d29cd53092": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
+            "linksListTitle": "PnP-PortalFooter-Links",
+            "copyright": "Ⓒ Copyright Contoso, 2019-2020",
+            "support": "support@contoso.com",
+            "personalItemsStorageProperty": "PnP-CollabFooter-MyLinks"
           }
         }
       }
