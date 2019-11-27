@@ -52,17 +52,16 @@
     min-width: 0;
   }
 
-
   .linksContainer {
     @include ms-Grid;
 
-      .linksContainerRow {
-        @include ms-Grid-row;
+    .linksContainerRow {
+      @include ms-Grid-row;
 
-        .linksGroupContainer {
-          @include ms-Grid-col;
-          @include ms-sm3;
-        }
+      .linksGroupContainer {
+        @include ms-Grid-col;
+        @include ms-sm3;
       }
     }
+  }
 }

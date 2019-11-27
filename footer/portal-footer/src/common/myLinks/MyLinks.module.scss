@@ -17,16 +17,16 @@
       .grid {
         @include ms-Grid;
 
-          .gridRow {
-            @include ms-Grid-row;
+        .gridRow {
+          @include ms-Grid-row;
 
-            .gridColumn {
-              @include ms-Grid-col;
-              @include ms-sm12;
-              @include ms-md12;
-              @include ms-lg12;
-            }
+          .gridColumn {
+            @include ms-Grid-col;
+            @include ms-sm12;
+            @include ms-md12;
+            @include ms-lg12;
           }
         }
+      }
   }
 }

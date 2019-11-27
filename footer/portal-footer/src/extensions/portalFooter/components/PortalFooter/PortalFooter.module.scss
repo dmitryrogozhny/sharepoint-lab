@@ -55,28 +55,28 @@
   .linksContainer {
     @include ms-Grid;
 
-      .linksContainerRow {
-        @include ms-Grid-row;
+    .linksContainerRow {
+      @include ms-Grid-row;
 
-        .copyrightContainer {
-          @include ms-Grid-col;
-          @include ms-sm3;
-        }
-
-        .supportButtonContainer {
-          @include ms-Grid-col;
-          @include ms-sm2;
-        }
-
-        .fillerContainer {
-          @include ms-Grid-col;
-          @include ms-sm6;
-        }
-
-        .toggleButtonContainer {
-          @include ms-Grid-col;
-          @include ms-sm1;
-        }
+      .copyrightContainer {
+        @include ms-Grid-col;
+        @include ms-sm3;
       }
+
+      .supportButtonContainer {
+        @include ms-Grid-col;
+        @include ms-sm2;
+      }
+
+      .fillerContainer {
+        @include ms-Grid-col;
+        @include ms-sm6;
+      }
+
+      .toggleButtonContainer {
+        @include ms-Grid-col;
+        @include ms-sm1;
+      }
+    }
   }
 }
