@@ -16,13 +16,13 @@
     "@microsoft/sp-application-base": "1.9.1",
     "@microsoft/sp-core-library": "1.9.1",
     "@microsoft/sp-dialog": "1.9.1",
-    "@microsoft/sp-office-ui-fabric-core": "^1.9.1",
     "@pnp/common": "^1.3.7",
     "@pnp/logging": "^1.3.7",
     "@pnp/odata": "^1.3.7",
     "@pnp/sp": "^1.3.7",
     "@types/es6-promise": "0.0.33",
-    "@types/webpack-env": "1.13.1"
+    "@types/webpack-env": "1.13.1",
+    "office-ui-fabric-react": "6.189.2"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.9.1",
