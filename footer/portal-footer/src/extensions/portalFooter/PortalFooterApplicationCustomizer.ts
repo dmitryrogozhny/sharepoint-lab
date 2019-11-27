@@ -96,8 +96,7 @@ export default class PortalFooterApplicationCustomizer
       links: null,
     };
 
-    const links = this._myLinks ? this._myLinks : [];
-    const myLinksDialog: MyLinksDialog = new MyLinksDialog(links);
+    const myLinksDialog: MyLinksDialog = new MyLinksDialog(this._myLinks);
     await myLinksDialog.show();
 
     // update the local list of links
@@ -190,18 +189,19 @@ export default class PortalFooterApplicationCustomizer
     let myLinksJson: any = await upsService.getUserProfileProperty(this.properties.personalItemsStorageProperty);
 
     // if we have personalizes links
-    if (myLinksJson !== null && myLinksJson !== undefined) {
-      if (myLinksJson.length > 0) {
-        this._myLinks = JSON.parse(myLinksJson) as IMyLink[];
+    if (myLinksJson && (myLinksJson.length > 0)) {
+      this._myLinks = JSON.parse(myLinksJson) as IMyLink[];
 
-        // add all of them to the "My Links" group
-        if (this._myLinks.length > 0) {
-          result.push({
-            title: strings.MyLinks,
-            links: this._myLinks,
-          });
-        }
+      // add all of them to the "My Links" group
+      if (this._myLinks.length > 0) {
+        result.push({
+          title: strings.MyLinks,
+          links: this._myLinks,
+        });
       }
+    } else {
+      // if no personal links are available, initialize the list of personal links with an empty array
+      this._myLinks = [];
     }
 
     return (result);
