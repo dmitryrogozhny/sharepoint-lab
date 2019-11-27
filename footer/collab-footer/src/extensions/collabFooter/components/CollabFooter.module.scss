@@ -1,0 +1,12 @@
+@import '~office-ui-fabric-react/dist/sass/_References.scss';
+
+.collabFooter {
+    .collabFooterContainer {
+        background-color: $ms-color-neutralLighter;
+        color: $ms-color-neutralPrimary;
+    }
+
+    .commandBar {
+        width: 100%;
+    }
+}

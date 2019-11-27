@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "collab-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/collabFooter/CollabFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/collabFooter/CollabFooterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CollabFooterApplicationCustomizerStrings": "lib/extensions/collabFooter/loc/{locale}.js",
+    "MyLinksStrings": "lib/common/myLinks/loc/{locale}.js"
+  }
+}
