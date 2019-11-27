@@ -12,7 +12,7 @@
             "linksListTitle": "PnP-PortalFooter-Links",
             "copyright": "Ⓒ Copyright Contoso, 2019-2020",
             "support": "support@contoso.com",
-            "personalItemsStorageProperty": "PnP-CollabFooter-MyLinks"
+            "personalItemsStorageProperty": "PnP-PortalFooter-MyLinks"
           }
         }
       }
@@ -26,7 +26,7 @@
             "linksListTitle": "PnP-PortalFooter-Links",
             "copyright": "Ⓒ Copyright Contoso, 2019-2020",
             "support": "support@contoso.com",
-            "personalItemsStorageProperty": "PnP-CollabFooter-MyLinks"
+            "personalItemsStorageProperty": "PnP-PortalFooter-MyLinks"
           }
         }
       }
