@@ -1,11 +1,20 @@
 import * as React from 'react';
-import { css } from 'office-ui-fabric-react/lib/Utilities';
+import {Suspense} from 'react';
 import { escape } from '@microsoft/sp-lodash-subset';
-import { Placeholder } from "@pnp/spfx-controls-react/lib/Placeholder";
 
 import styles from './Video.module.scss';
 import { IVideoProps as IVideoProps } from './IVideoProps';
 import ConditionalLinkWrapper from './ConditionalLinkWrapper';
+
+const PlaceholderControl = React.lazy(() => import('@pnp/spfx-controls-react/lib/Placeholder').then(({ Placeholder }) => ({ default: Placeholder })));
+
+/**
+ * Joins CSS classes together
+ * @param args CSS classes
+ */
+function css(...args: string[]) {
+  return args.join(' ');
+}
 
 /**
  * Renders a video with an optional link and text.
@@ -40,31 +49,33 @@ const Video: React.FunctionComponent<IVideoProps> = ({ videoLink, posterLink, li
       } else {
         // if editing and link to a video is not specified - show edit placeholder
         return (
-          <Placeholder
-            iconName='MSNVideos'
-            iconText='Video'
-            description='Display a video with an optional link and text.'
-            buttonLabel='Add video'
-            onConfigure={onConfigure}
-          />
+          <Suspense fallback={<div className={styles.placeholder}>&nbsp;</div>}>
+            <PlaceholderControl
+              iconName='MSNVideos'
+              iconText='Video'
+              description='Display a video with an optional link and text.'
+              buttonLabel='Add video'
+              onConfigure={onConfigure}
+            />
+          </Suspense>
         );
       }
     } else {
-      if (videoLink) {
-        // if displaying and link to a video is specified - show video player (with or without <a> link)
-        return videoContainer;
-      } else {
-        // if displaying and link to a video is not specified - show empty placeholder
-        return (<div></div>);
-      }
-    }
+  if (videoLink) {
+    // if displaying and link to a video is specified - show video player (with or without <a> link)
+    return videoContainer;
+  } else {
+    // if displaying and link to a video is not specified - show empty placeholder
+    return (<div></div>);
+  }
+}
   }
 
-  return (
-    <div className={styles.video}>
-      {renderVideo()}
-    </div>
-  );
+return (
+  <div className={styles.video}>
+    {renderVideo()}
+  </div>
+);
 };
 
 export default Video;
