@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "favico-notification-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/favicoNotification/FavicoNotificationApplicationCustomizer.js",
+          "manifest": "./src/extensions/favicoNotification/FavicoNotificationApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FavicoNotificationApplicationCustomizerStrings": "lib/extensions/favicoNotification/loc/{locale}.js"
+  }
+}

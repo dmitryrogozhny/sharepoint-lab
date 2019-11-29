@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="FavicoNotification"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="a689601a-d309-4410-a867-0a4e3824363e"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
