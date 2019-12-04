@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d9fc05c0-ca3e-44af-b7d6-4306ddd747ad",
+  "alias": "RichTextWithMentionWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Text Editor With Mention" },
+    "description": { "default": "Rich text editor with users @ mention support" },
+    "officeFabricIconFontName": "EditContact",
+    "properties": {
+    }
+  }]
+}

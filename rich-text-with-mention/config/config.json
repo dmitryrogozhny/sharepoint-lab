@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rich-text-with-mention-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/richTextWithMention/RichTextWithMentionWebPart.js",
+          "manifest": "./src/webparts/richTextWithMention/RichTextWithMentionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RichTextWithMentionWebPartStrings": "lib/webparts/richTextWithMention/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
