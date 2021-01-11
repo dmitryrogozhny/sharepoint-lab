@@ -17,6 +17,9 @@ The web part provides the following properties:
 - `Title`&thinsp;&mdash;&thinsp;allows to specify the title for the web part. You can edit the title directly in the web part's body.
 
 ## Minimal Path to Awesome
+### Pre-built package
+You can grab the pre-built packaged ready for deployment from [./release/table-of-contents.sppkg](https://github.com/dmitryrogozhny/sharepoint-lab/blob/master/table-of-contents/release/table-of-contents.sppkg).
+
 ### Local testing
 - Clone this repository
 - In the command line run:
