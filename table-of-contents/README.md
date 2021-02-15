@@ -20,6 +20,10 @@ The web part provides the following properties:
 ### Pre-built package
 You can grab the pre-built packaged ready for deployment from [./release/table-of-contents.sppkg](https://github.com/dmitryrogozhny/sharepoint-lab/blob/master/table-of-contents/release/table-of-contents.sppkg).
 
+Here's how to deploy the web part to the site collection's app catalog:
+![deploying to site app catalog](./assets/table-of-contents-deploy-to-site-app-catalog.gif)
+
+
 ### Local testing
 - Clone this repository
 - In the command line run:
