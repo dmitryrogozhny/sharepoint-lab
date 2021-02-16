@@ -2,23 +2,42 @@
 
 .tableOfContents {
 
-  a {
-    color: "[theme: accent, default: #0078d7]";
-    text-decoration: none;
+    a {
+        color: rgb(50, 49, 48);
+        text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
+        &:hover {
+            color: "[theme: accent, default: #0078d7]" !important;
+        }
+
+        &:visited {
+            color: rgb(50, 49, 48);
+        }
     }
 
-    &:visited {
-      color: "[theme: accent, default: #0078d7]";
+    ul {
+        list-style: none;
+        padding-left: 20px;
     }
-  }
 
-  // hide on medium screens and smaller
-  .hideInMobileView {
-    @include ms-screen-lg-down {
-      display: none !important;
+    ul li::before {
+        content: "\25B6";
+        color: "[theme: accent, default: #0078d7]";
+        font-weight: bold;
+        display: inline-block;
+        padding-right: 7px;
+        margin-left: -15px;
+        width: 1em;
     }
-  }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    // hide on medium screens and smaller
+    .hideInMobileView {
+        @include ms-screen-lg-down {
+            display: none !important;
+        }
+    }
 }
