@@ -30,7 +30,7 @@
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.3",
     "@types/webpack-env": "1.13.1",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "jspdf-autotable": "^3.1.1",
     "moment": "^2.24.0",
     "office-ui-fabric-react": "6.189.2",
